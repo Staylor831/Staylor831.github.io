@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styling Elements</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+ <p>This is my first paragraph</p>
+ <P>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Exercitationem laborum, 
+    molestiae expedita mollitia ratione delectus autem ducimus! 
+    Delectus eveniet blanditiis omnis adipisci 
+    laudantium autem itaque quis? Nihil odio sint quod.
+</P>
+
+<b>Bolded text outside of a paragraph.</b>
+<i>Italicized text outside of a paragragh</i>
+
+<p>
+    This is<b>bolded text</b> insided of a paragraph.
+</p>
+<p>
+    this is<i>Italicized text </i> inside a paragraph.
+    <p>
+        This is <sup> superscripted text</sup> inside a paragraph.
+    </p>
+    <p>
+        this is <sub>subscripted text</sub> inside a paragraph.
+    </p>
+    <p>
+        This sentence has a line break<br> in the middle.
+        <hr>
+        <p>
+            separated
+        </p>
+
+</body>
+</html>
