@@ -12,9 +12,104 @@ body {
     font-family: gill sans;
     text-align: center;
     padding: 24px;}
-    #p2-c2{
+    #p1-c2{
         background-color:#F7AEF8 ;
     color: white;
 font-family: gill sans;
 text-align: center;
 padding: 24px;}
+
+#p1-c3{
+    background-color: #8388EB;
+    color: white;
+    font-family: gill sans;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c4{
+    
+    background-color:#8093f1;
+    color: white;
+    font-family: gill sans;
+    text-align: center;
+    padding: 24px;
+
+}
+#p1-c5{
+    background-color:#72DDF7 ;
+    color: white;
+    font-family: gill sans;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c1{
+    background-color: #92977E;
+    color:wheat;
+    font-family:arial;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c2{
+    background-color:#E6E18F ;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c3{
+    background-color:#FEFCAD ;
+    color:green;
+    font-family: arial;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c4{
+    background-color: #EADDA6;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c5{
+    background-color:#FFFAE2;
+    color: black;
+    font-family: arial;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c1{
+    background-color:#2DE1FC ;
+    color: white;
+    font-family: geneva;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c2{
+    background-color:#09E85E ;
+    color: white;
+    font-family: geneva;
+    text-align: center;
+    padding: 24px;
+
+}
+#p3-c4{
+    background-color:#16C172 ;
+    color: white;
+    font-family: geneva;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c3{
+    background-color:#09E85E ;
+    color: white;
+    font-family: geneva;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c5{
+    background-color:#214F4B ;
+    color: white;
+    font-family: geneva;
+    text-align: center;
+    padding: 24px;
+}
