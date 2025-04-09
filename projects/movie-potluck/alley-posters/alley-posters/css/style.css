@@ -1,0 +1,32 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#pic1{
+    width: 100px;
+    margin:50px;
+    rotate: 10deg;
+}
+
+#pic2{
+    width: 90px;
+    margin: 50px;
+    border: 20px solid white;
+    padding: 9px;
+    background-color: black;
+    box-shadow:8px 8px 8px red;
+}
+
+#pic3{
+    background-color: antiquewhite;
+    width: 50px;
+    margin: 20px;
+    padding: 50px;
+    rotate: -5deg;
+    text-align: center;
+}
