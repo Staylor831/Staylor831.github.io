@@ -6,3 +6,88 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#two-columns {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas: 
+        "content-area sidebar-area";
+}
+
+
+#sidebar-content {
+    margin-top: 24px;
+    padding: 0px 12px;
+    grid-area: sidebar-area;
+}
+
+
+#sidebar-content h2 {
+    background-color: #232372;
+    color: white;
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+#sidebar-content ul {
+    border: 1px solid #DDDDDD;
+    margin: 0px;
+    padding: 16px;
+    list-style-type: none;
+}
+
+#sidebar-content ul li {
+    padding: 8px 0px;
+}
+#main-content {
+    margin-right: 16px;
+    grid-area: main-area;
+}
+
+#sticky-sidebar {
+    position: sticky;
+    top: 24px;
+}
+
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas: 
+        "content-area sidebar-area";
+}
+
+
+#sidebar-content2 {
+    margin-top: 24px;
+    padding: 0px 12px;
+    grid-area: sidebar-area;
+}
+
+
+#sidebar-content2 h2 {
+    background-color: #232372;
+    color: white;
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+#sidebar-content2 ul {
+    border: 1px solid #DDDDDD;
+    margin: 0px;
+    padding: 16px;
+    list-style-type: none;
+}
+
+#sidebar-content2 ul li {
+    padding: 8px 0px;
+}
+#main-content {
+    margin-right: 16px;
+    grid-area: main-area;
+}
+
+#sticky-sidebar2 {
+    position: sticky;
+    top: 24px;
+}
