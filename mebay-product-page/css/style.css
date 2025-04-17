@@ -14,15 +14,43 @@ body {
 }
 
 #column-one{
-    background-color: lightgreen;
+    background-color: white;
     /* width: 150px */
 }
 
 #column-two{
-    background-color: lightcoral;
+    background-color: white;
+    /*flex:1; */
+    
+
+    
+}
+#column-three{
+    background-color: white;
     /*flex:1; */
 }
-#colmn-three{
-    background-color: goldenrod;
-    /*flex:1; */
+#column-two img{
+    width: 100%;
+}
+#column-one img{
+    width: 50%;
+}
+#buy{
+    background-color:blue;
+    padding: 9%;
+    border-radius: 10%;
+    width: 90px;
+}
+#cart{
+    background-color:lightgrey;
+    padding: 9%;
+    border-radius: 10%;
+    width: 90px;
+}
+
+#wish{
+    background-color: bisque;
+    padding: 9%;
+    border-radius: 10%;
+    width: 90px;
 }
