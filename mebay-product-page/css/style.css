@@ -35,7 +35,8 @@ body {
 #column-one img{
     width: 50%;
 }
-#buy{
+#buy{ 
+    
     background-color:blue;
     padding: 9%;
     border-radius: 10%;
