@@ -7,4 +7,36 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section-1 {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+#trek-card {
+    background: url("../images/treasure-map.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
+.trek-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+# {
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+}
+
 
