@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #109cb8, #0e5b96);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+}
+
+/*
+    Let's give the links in the dropdown menu
+    a background to start with.  
+
+    The linear gradient won't work as well, since
+    the dropdown links are vertical rather than
+    horizontal, so we'll just give them a solid
+    background color that complements the navbar.
+
+    Notice that we're only targeting hyperlinks
+    in the dropdown MENU, not the CONTAINER.
+
+    The original Gallery link is in the container,
+    and we don't want to change the style of that
+    link; only the ones in the menu itself.
+*/
+
+.dropdown-menu a {
+    background-color: darkslateblue;
+    /*
+        You'll also notice that now we have a jagged
+        edge, as all the links have different widths.
+
+        We can fix that by applying width: 100%;
+    */
+    width: 100%;
+    /*
+        But even that looks a tad awkward with our
+        current design, because its so narrow.
+        We can force it to stretch out a bit more
+        by applying a min-width to it.
+    */
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+
+    background: slateblue;
+}
+
+.image-container {
+    height: 400px;
+}
+
+#grid-side-by-side {
+    background-color: #fff0cb;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-auto-rows: 150px;
+    justify-content: center;
+    gap: 50px;
+}
+
+/*
+    To create a media query, you need:
+    - the at-rule (@media)
+    - the media type
+    - the media feature(s).
+
+    max-width targets anything at or below that width.
+    min-width targets anything at or above that width.
+
+    They can be used together to create upper and lower
+    bounds for a media query.
+*/
+@media screen and (max-width: 768px) {
+    /*
+        By default, flex-direction is set to 'row', 
+        which gets Flexbox items side by side.
+        
+        The flex-direction property must be changed to 
+        'column' for Flexbox items to stack.
+
+        Alternatively, you can also use flex-wrap: wrap;
+        to allow Flexbox items to stack in a different way.
+
+        Which approach is best will depend on your design
+        and content.
+
+    */
+    #nav, #flex-side-by-side {
+        flex-direction: column;
+    }
+
+    #nav {
+        gap: 25px;
+        align-items: center;
+    }
+
+    #flex-side-by-side {
+        gap: 10px;
+    }
+
+    .image-container {
+        height: 200px;
+        width: 100%;
+    }
+    #grid-side-by-side {
+        grid-template-columns: 100%;
+    }
+}
+
