@@ -143,19 +143,16 @@ body {
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
-
 .single-column {
     min-width: 600px;
     max-width: 1200px;
     margin: 0px auto;
 }
-
 #card-section {
    background: black;
     color: lightgreen;
     padding: 48px;
 }
-
 .card-container {
     display: flex;
     justify-content: space-between;
