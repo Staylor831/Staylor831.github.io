@@ -26,3 +26,381 @@ body {
     color: white;
     padding: 24px;
 }
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+#navbar a:hover {
+    background: linear-gradient(to top, green, #3e6d3e);
+}
+
+#footer {
+    background: linear-gradient(to bottom,green, #3e6d3e);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background: 
+        radial-gradient(at top left, white,black);
+    padding: 48px;
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+#hero-2 {
+    background-image: url("../images/chips.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-2 h2 {
+    font-size: 72px;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+    color: white;
+}
+
+#hero-2 h4 {
+    font-size: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 47%;
+    color: white;
+}
+
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color:#222222;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+#hero-2 a:hover {
+    background-color: green;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+   background: black;
+    color: lightgreen;
+    padding: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid lightgreen;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+#card-section2 {
+    background: black;
+     color: lightgreen;
+     padding: 48px;
+ }
+ 
+ .card-container2 {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .card {
+     flex: 1;
+     border: 3px solid lightgreen;
+     padding: 36px;
+     text-align: center;
+     margin: 36px;
+ }
+ 
+ .card h3 {
+     font-size: 36px;
+     margin: 0px;
+ }
+ 
+ .card p {
+     font-size: 24px;
+     margin: 24px 0px 0px;
+ }
+ #card-section3 {
+    background: black;
+     color: lightgreen;
+     padding: 48px;
+ }
+ 
+ .card-container3 {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .card {
+     flex: 1;
+     border: 3px solid lightgreen;
+     padding: 36px;
+     text-align: center;
+     margin: 36px;
+ }
+ 
+ .card h3 {
+     font-size: 36px;
+     margin: 0px;
+ }
+ 
+ .card p {
+     font-size: 24px;
+     margin: 24px 0px 0px;
+ }
+ .card img {
+    width: 100%;
+    border: 5px solid lightgreen;
+        border-radius: 5px;}
+        .card:hover {
+            background-color: green;
+            box-shadow: 4px 4px 4px #00000033;
+            transform: translateY(-4px);
+        }
+        
+        .card {
+            transition: 
+                background-color 0.5s,
+                box-shadow 0.5s,
+                transform 0.5s;}
+
+                #nav a {
+                    color: white;
+                    font-size: 18px;
+                    text-decoration: none;
+                    padding: 20px;
+                }
+                
+                .single-column-layout {
+                    width: 90vw;
+                    max-width: 800px;
+                    margin: 48px auto;
+                }
+                
+                .intro {
+                    display: flex;
+                    align-items: center;
+                    gap: 48px;
+                }
+                
+                .image-container,
+                .content-container {
+                    flex: 1;
+                }
+                
+                .image-container img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 24px;
+                }
+                
+                .image-container {
+                    height: 400px;
+                }
+                
+                .content-container h1 {
+                    font-size: 48px;
+                    color: #ffb700;
+                }
+                
+                .featured {
+                    background-color: #222222;
+                    color: white;
+                    padding: 24px 0px;
+                }
+                
+                .featured h2 {
+                    font-size: 36px;
+                    text-align: center;
+                }
+                
+                .grid img {
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                    border-radius: 24px;
+                }
+                
+                .grid {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    gap: 16px;
+                    grid-template-areas:
+                        "txt1 img1 img2 img2"
+                        "img3 img3 img4 txt2";
+                }
+                
+                #p1 {
+                    grid-area: txt1;
+                }
+                
+                #p2 {
+                    grid-area: txt2;
+                }
+                
+                #img {
+                    grid-area: img1;
+                }
+                .grid p {
+                    border: 2px solid #ffb700;
+                    border-radius: 24px;
+                    margin: 0px;
+                    padding: 20px;
+                }
+                @media screen and (max-width: 740px) and (min-width: 450px) {
+                    /*
+                        We can either delete this CSS rule, or just
+                        comment it out, in case we want to use it again
+                        for debugging this page in the future.
+                    */
+                    /* body {
+                        background-color: skyblue;
+                    } */
+                
+                    .content-container h1 {
+                        font-size: 28px;
+                    }
+                
+                    .intro {
+                        gap: 24px;
+                    }
+                
+                    .image-container {
+                        height: 300px;
+                    }
+                
+                    .grid {
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-areas: 
+                            "txt1 img1"
+                            "img2 img2"
+                            "img3 img3"
+                            "img4 txt2";
+                    }
+                }
+                @media screen and (max-width: 450px) {
+                    #nav {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                
+                    .intro {
+                        flex-direction: column;
+                        gap: 24px;
+                    }
+                
+                    .content-container h1 {
+                        margin: 0px;
+                        font-size: 28px;
+                    }
+                
+                    .content-container {
+                        text-align: center;
+                    }
+                
+                    .grid {
+                        grid-template-columns: 1fr;
+                        grid-template-areas: 
+                            "txt1"
+                            "img1"
+                            "img2"
+                            "img3"
+                            "img4"
+                            "txt2";
+                    }
+                
+                    .grid p {
+                        height: 300px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                
